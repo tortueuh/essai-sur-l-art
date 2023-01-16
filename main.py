@@ -149,7 +149,7 @@ class graphic():
 
 pygame.mixer.music.load('im/bald_night.ogg')
 pygame.mixer.music.set_volume(0.6)
-#pygame.mixer.music.play()
+pygame.mixer.music.play()
 graph = graphic()
 while graph.running:
     graph.event()
